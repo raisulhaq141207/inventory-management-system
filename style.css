@@ -1,0 +1,22 @@
+*{box-sizing:border-box}body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f4f6f9;color:#222}
+nav{background:#14284b;color:#fff;padding:12px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+nav a{color:#cfe0ff;text-decoration:none}nav a:hover{color:#fff}.right{margin-left:auto}
+main{max-width:1050px;margin:24px auto;padding:0 16px}footer{text-align:center;color:#888;padding:20px;font-size:13px}
+.card{background:#fff;border-radius:8px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.1);margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.stat{font-size:28px;font-weight:700;color:#14284b}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:9px 10px;border-bottom:1px solid #e5e7eb;text-align:left}
+th{background:#eef2f7}th a{color:inherit;text-decoration:none}
+input,select,textarea{padding:8px;border:1px solid #c5cbd3;border-radius:5px;width:100%}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.filters input,.filters select{width:auto}
+label{display:block;margin:10px 0 4px;font-weight:600}
+.btn{display:inline-block;background:#14284b;color:#fff;border:0;padding:8px 14px;border-radius:5px;cursor:pointer;text-decoration:none;font-size:14px}
+.btn.danger{background:#c0392b}.btn.gray{background:#6b7280}.btn.sm{padding:4px 9px;font-size:13px}
+.alert{padding:12px 14px;border-radius:6px;margin-bottom:14px}.alert.success{background:#d4edda;color:#155724}
+.alert.error{background:#f8d7da;color:#721c24}.alert ul{margin:6px 0 0 18px;padding:0}
+.badge{background:#3b6fd4;color:#fff;border-radius:10px;padding:2px 8px;font-size:12px}
+.low{color:#c0392b;font-weight:700}.pager{margin-top:14px;display:flex;gap:6px;flex-wrap:wrap}
+.pager a,.pager span{padding:5px 10px;border:1px solid #c5cbd3;border-radius:4px;background:#fff;text-decoration:none;color:#14284b}
+.pager span.cur{background:#14284b;color:#fff}.form{max-width:520px}
+.in{color:#1e8449;font-weight:600}.out{color:#c0392b;font-weight:600}
+form.inline{display:inline}
